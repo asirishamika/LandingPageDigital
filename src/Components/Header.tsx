@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-sm navbar-dark "
+        className="navbar navbar-expand-sm navbar-dark nav-cus"
         aria-label="Offcanvas navbar large"
       >
-        <div className="container-fluid d-flex justify-content-space-between col-10 ">
+        <div className="container-fluid d-flex justify-content-space-between col-12 ">
           <a className="navbar-brand" href="#">
             <img
               src={logo}

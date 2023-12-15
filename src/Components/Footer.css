@@ -1,0 +1,31 @@
+.cus-footer{
+   margin-top: auto;
+   background-color:#6B3CC9;
+   color: #FFF;
+
+   font-family: Inter;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+    
+}
+.nav-item{
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+
+p.text-desc{
+color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}

@@ -25,3 +25,9 @@ a.navbar-brand:hover{
     color: aqua;
     
 }
+.nav-cus{
+
+    @media screen and (max-width:576px) {
+        width: 100%;
+    }
+}

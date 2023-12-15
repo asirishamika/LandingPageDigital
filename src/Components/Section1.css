@@ -1,0 +1,68 @@
+.section-heading {
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 122.222% */
+    letter-spacing: 0.4px;
+    color: #6B3CC9;
+}
+
+.section-content {
+color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn-custom{
+   
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 14px */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    
+    }
+
+@media screen and (max-width:375px) {
+    .sec-img{
+        margin-top: -50px;
+        height: 275px;
+        width: 275px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sec-img{
+        height: 275px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .sec-img{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .sec-img{
+    
+        height: 346px;
+
+    }
+
+}
+@media screen and (min-width:1400px) {
+    .sec-img{
+        margin-top: 100px;
+        height: 414px;
+
+    }
+   
+}
