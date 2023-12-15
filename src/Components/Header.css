@@ -1,0 +1,27 @@
+.navbar-expand-sm  {
+    background-color: #6B3CC9;
+    height: 77px;
+}
+
+a.nav-link {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;   
+    
+}
+a.nav-link:hover{
+    color: aqua;
+}
+
+
+a.navbar-brand{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-weight:700;
+    color: #ffffff;
+}
+a.navbar-brand:hover{
+    color: aqua;
+    
+}

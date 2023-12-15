@@ -1,0 +1,95 @@
+
+.hero-card
+{
+  padding: 24px 40px 32px 40px;
+  background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+  
+ 
+
+}
+
+.btn-custom{
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 14px */
+letter-spacing: -0.28px;
+text-transform: uppercase;
+
+}
+
+.card-text
+{
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 48px */
+letter-spacing: -0.96px;
+text-transform: capitalize;
+color: aliceblue;
+margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+
+  .hero-card
+  {
+    margin-top: -360px;
+    margin-left: 40px;
+   
+  
+  }
+  .card-text
+  {
+    font-size: 40px;
+  } 
+  
+}
+@media screen and (min-width: 1200px){
+  .hero-card{
+    margin-top: -350px;
+    margin-left: 40px;
+  }
+  .card-text
+  {
+    font-size: 40px;
+  } 
+}
+
+@media screen and (min-width: 1400px){
+  .hero-card{
+    margin-top: -400px;
+    margin-left: 40px;
+  } 
+  .card-text
+  {
+    font-size: 48px;
+  } 
+}
+
+@media screen and (max-width:425px) {
+
+   .card-text
+  {
+    font-size: 36px;
+  } 
+  .hero-card
+  {
+    padding: 24px 5px 32px 5px;
+    width: fit-content;
+  }
+}
+
+
+
+
+
+
+
+
